@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DncWeather</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#formu-cont">DncWeather</a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#Sub2">Endereços</a></li>
+                <li><a href="#R1">Previsão do tempo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div id="P1">
+            <h1> Mais com Precisão: <br> Previsões do Tempo e endereços <br>  em tempo real.</h1>
+            <img src="./imagens/nuvem1.svg" alt="Erro">
+        </div>
+
+
+        <div id="P2">
+            <form action="post" id="formu-cont">
+
+                <div id="formu">
+
+                    <div id="l1"><label for="">Primeiro Nome:</label>
+                    <input id="nome" name="nome" placeholder="Insira seu primeiro nome:" class="textarea" type="text" required>
+                    </div>
+
+
+                    <div id="l3"><label>E-mail:</label>
+                    <input id="email" name="email" placeholder="Insira seu e-mail" class="textarea" type="email" required></div>
+                    
+                    <div id="l5"><label>Digite o CEP:</label>
+                    <input id="CEP" name="CEP" placeholder="Insira o CEP" class="textarea" type="text" required></div>
+
+                    <div id="l7"><label>Digite a latitude para saber a previsão:</label>
+                    <input id="latitude" name="latitude" placeholder="Latitude" class="textarea1" type="text" required> <input id="longitude" name="longitude" placeholder="Longitude" class="textarea1" type="text" required></div>
+
+
+                    <div id="l9"><input id="botao" name="acessar" type="submit" value="Acessar"></div>
+
+                
+            </div>
+            </form>
+        </div>
+
+        <section id="CEPB">
+            <div id="Sub2">
+            
+                <h1>Resultado da busca por CEP:</h1> 
+                <img src="./imagens/loc.svg" alt="">
+    
+            </div>
+    
+           
+            <div id="Localizacao">
+
+                <div id="ED1"><span>Logradouro/nome</span></div>   
+                <div id="ED2"><span>Bairro/Distrito</span></div> 
+                <div id="ED3"><span>Localidade/UF</span></div>    
+
+                
+
+                <div class="loc"> <span id="Logradouro">Justino Cobra</span></div> 
+                <div class="loc"><span id="Bairro">Vila Ema</span></div> 
+                <div class="loc"><span id="Localidade">SP</span></div>
+
+
+    
+            </div>
+        </section>
+        
+        <section id="PREVI">
+            <div id="Sub3">
+                <h1>Previsão do tempo na região:</h1>
+                <img src="./imagens/nuvem2.svg" alt="Erro">
+            </div>
+    <br>
+            <div id="R1">
+                <div id="s1"><span>Previsão de acordo com a região:</span> <span id="Temperatura">24°c</span></div>
+            </div>
+        </section>
+        
+    </section>
+
+    <footer id="Rodapé">
+        <a id="a1" href="#">Termos de Uso</a> <a href="">Politica de Privacidade</a>
+    </footer>
+
+    <script></script>
+</body>
+</html>

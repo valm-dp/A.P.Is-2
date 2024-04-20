@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{  margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: inter;
+}
+
+* ::placeholder{
+    color: rgba(128, 128, 128, 0.925);
+}
+
+a{text-decoration: none; color: white;}
+
+/*navbar--------------------------------------*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color:rgba(12, 112, 242, 1);
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header > a{ font-size: 50px; font-weight: bold;}
+
+.menu{display: flex;}
+
+.menu li{   
+    display: block;
+    margin: 15px;
+    padding: 10px;
+}
+
+.menu li:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.menu a{ font-weight: bold;}
+
+/*-------------------------------------------*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 250px;
+}
+
+.container div section{
+    width: 95vw;
+    margin-top: 50px;
+}
+
+/*-------------------------------------------*/
+
+#P1{
+    margin-top: 20px;
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    }
+
+#P1 h1{
+    font-size: clamp(1em, 1em + 1vw, 4em);
+    margin-right: 65px;
+    font-weight: bolder;
+    }
+
+#P1 img{
+    padding-bottom: 35px;
+    padding: 15px;
+    width: 100px;
+}
+
+/*-------------------------------------------*/
+
+#P2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: centers;
+}
+
+/*---------------------FORMULARIO----------------------*/ 
+
+#formu {
+    margin:30px 0px;
+    padding-left: 200px;
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+
+#formu > div {    
+    width: 70%;
+}
+
+.textarea{
+    height: 20px;
+    width: 92%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    max-width: 480px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.234);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.textarea:hover{
+    border: 2px solid black;
+}
+
+.textarea1{
+    height: 20px;
+    width: 43%;
+    margin-top: 15px;
+    max-width: 225px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.234);
+    padding: 10px;
+}
+
+.textarea1:hover{
+    border: 2px solid black;
+}
+
+
+#botao{ 
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color:rgba(12, 112, 242, 1);
+    color: white;
+    margin-top: 30px;
+   margin-left: -3px;
+    padding: 5px;
+    max-width: 490px;
+    font-size: 25px ;
+    cursor: pointer;
+    border: 0;
+}
+
+#botao:hover {
+    box-shadow: 5px 10px 15px 0 rgba(9, 71, 153, 0.814);
+    border: 1px solid rgb(9, 64, 136);
+    transition: 0.3s;
+}
+/*---------------------FORMULARIO----------------------*/
+
+/*------------------SUBTITULO-------------------------*/
+#Sub2{
+    margin-top: 1px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap:wrap-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+#Sub2 img{
+    width: 70px;
+
+}
+
+#Sub2 h1{
+    font-size: clamp(1em, 1em + 1vw, 3em);
+}
+/*------------------SUBTITULO-------------------------*/
+
+/*------------------RESULTADO CEP-------------------------*/
+
+#CEPB {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+#CEPB span{
+    padding: 15px;
+}
+
+#Localizacao {
+    background-color:rgba(12, 112, 242, 1);
+    padding-top: 5px;
+    color: aliceblue;
+    border-radius: 15px;
+    display: grid;
+    width: 70%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30px 30px;
+    margin-bottom: 30px;
+}
+
+.loc {
+    background-color: #ffff;
+    color: black;
+}
+/*------------------RESULTADO CEP-------------------------*/
+
+/*------------------SUBITITULO-------------------------*/
+#Sub3 img{ 
+    padding-left: 15px;
+    width: 80px;
+}
+#Sub3 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+#Sub3 h1{
+    font-size: clamp(1em, 1em + 1vw, 3em);
+}
+/*------------------SUBITITULO-------------------------*/
+
+/*------------------RESULTADO PREVISÃO-------------------------*/
+#PREVI {
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#R1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: black;
+    background-color:rgb(249, 249, 249);
+    border: 1px solid rgba(12, 112, 242, 1);
+    border-radius: 30px;
+    padding-bottom: 5px;
+    width: 70%;
+    font-weight: bold;
+}
+
+#R1:hover{
+    background-color: rgba(128, 128, 128, 0.47);
+    border: 2px solid rgba(12, 112, 242, 1.0);
+}
+
+#s1 {
+    text-align: center;
+    padding-top: 5px;
+}
+/*------------------RESULTADO PREVISÃO-------------------------*/
+
+/*------------------RODAPÉ-------------------------*/
+#Rodapé {
+    display: flex;
+    height: 40px;
+    background-color:rgba(12, 112, 242, 1);
+    align-items: center;
+    justify-content: end;
+}
+
+#Rodapé a{
+    padding:0px 15px;
+}
+
+#a1 {
+    border-right: 2px solid white;
+}
+
+#Rodapé a:hover{
+    text-decoration: underline;
+}
+
+/*------------------RODAPÉ-------------------------*/
+
+/*------------------@MEDIA-------------------------*/
+
+@media screen and (max-width: 500px) {
+    #formu{
+        width: 100%;
+        padding-left: 70px;
+        text-align: center;
+    }
+
+    #R1 {
+        width: 100%;
+    }
+
+    #Localizacao{
+        width: 100%;
+    }
+
+    #CEPB span{
+        padding: 5px;
+    }
+}
+
+/*------------------@MEDIA-------------------------*/
