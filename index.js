@@ -55,5 +55,5 @@ async function temperatura(){
     }
 }
 /*4f7dde9c4a9c3138edd15aef6048eeb9*/
-
+                
   
