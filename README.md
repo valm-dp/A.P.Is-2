@@ -3,14 +3,19 @@
 ### Projeto focado para exercicio das abilidades com APIs
 
 
-#### Tecnoligias e APIS utilizados
+Link para acesso a hospedagem no Netlify: https://c0nsum0-de-apis.netlify.app
 
-VSCode 
-Figma 
-Opem.Meteo
-ViaCEp
+## Tecnoligias e APIS utilizados
 
-### Partes do projeto:
+- VSCode 
+
+- Figma 
+
+- Opem.Meteo
+
+- ViaCEp
+
+## Partes do projeto:
 
 #### 1° - Header
 Cabeçaçho do site, sendo ele totalmente interativo.
